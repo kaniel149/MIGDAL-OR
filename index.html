@@ -4,12 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>מגדל אור – 100 מסיבות נצח</title>
-    
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap" rel="stylesheet">
-    
     <style>
         html { scroll-behavior: smooth; }
         body {
@@ -41,7 +39,7 @@
 </head>
 <body class="antialiased">
 
-    <!-- =========== HERO / HOOK =========== -->
+    <!-- HERO -->
     <header class="min-h-screen flex flex-col items-center justify-center text-center p-4 relative overflow-hidden" style="background: radial-gradient(ellipse at bottom, #3e3231 0%, #0d0d0d 70%);">
         <div class="absolute inset-0 bg-black opacity-30"></div>
         <div class="relative z-10">
@@ -53,7 +51,6 @@
             <a href="#cta" class="brand-button font-bold py-4 px-10 rounded-full text-lg uppercase tracking-wider mt-10 shadow-lg inline-block">
                 הצטרפו למסע
             </a>
-            <!-- Quick action buttons added here -->
             <div class="mt-8 flex flex-wrap justify-center gap-4">
                  <a href="https://pe4ch.com/ref/LR8LDHnm2che?lang=he" target="_blank" rel="noopener noreferrer" class="secondary-button font-bold py-2 px-6 rounded-full text-sm">🎁 תרמו</a>
                  <a href="https://docs.google.com/forms/d/1kEo7k7XqBivKRaGv6oVwafeFtFFTB7p6gTFzWLLZgyM/viewform?edit_requested=true" target="_blank" rel="noopener noreferrer" class="secondary-button font-bold py-2 px-6 rounded-full text-sm">🤝 היו שגרירים</a>
@@ -62,7 +59,7 @@
         </div>
     </header>
 
-    <!-- =========== PROBLEM / STORY =========== -->
+    <!-- STORY -->
     <section class="py-16 sm:py-24 px-4">
         <div class="container mx-auto max-w-3xl text-center">
             <h2 class="text-3xl sm:text-4xl font-extrabold brand-accent mb-6">קצת רקע</h2>
@@ -77,7 +74,7 @@
         </div>
     </section>
 
-    <!-- =========== GOAL / SOLUTION =========== -->
+    <!-- CAMPAIGN GOAL + IMAGE -->
     <section id="campaign-goal" class="py-16 sm:py-24 px-4" style="background-color: #111;">
         <div class="container mx-auto max-w-4xl text-center">
             <h2 class="text-3xl sm:text-4xl font-extrabold text-white mb-4">🚐 עכשיו אנחנו יוצאים להקים:</h2>
@@ -85,9 +82,8 @@
             <p class="text-lg text-gray-300 max-w-2xl mx-auto mb-12">
                 רכבים מאובזרים שיגיעו לכל מקום שצריך ויהוו מרחבים בטוחים לאבל, חרדה, פלאשבקים ותקווה.
             </p>
-            
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-right">
-                <div class="bg-gray-500/10 p-6 rounded-xl border border-gray-500/20">
+                <div class="bg-gray-500/10 p-6 rounded-xl border border-gray-500/20 flex flex-col justify-center">
                     <h3 class="text-2xl font-bold brand-accent mb-4">מה יהיה בכל ניידת?</h3>
                     <ul class="space-y-3 text-lg text-gray-200">
                         <li class="flex items-start"><span class="text-amber-500 ml-3 mt-1">✅</span> אזור ריפוי רגשי</li>
@@ -96,14 +92,19 @@
                         <li class="flex items-start"><span class="text-amber-500 ml-3 mt-1">✅</span> מקום לנוח, לנשום, להתחבר</li>
                     </ul>
                 </div>
-                <!-- Image updated with a new, stable link -->
-                <div class="bg-cover bg-center rounded-xl min-h-[250px]" style="background-image: url('https://i.postimg.cc/k5YFz7gG/migdal-or-safe-space.jpg');">
+                <div class="flex items-center justify-center">
+                    <img 
+                        src="https://i.imgur.com/5p0R3P9.jpg" 
+                        alt="ניידת מגדל אור בלילה – תאורה ואווירה" 
+                        class="rounded-xl shadow-lg border-4 border-amber-400 max-h-72 w-auto object-cover"
+                        loading="lazy"
+                    >
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- =========== OUR SERVICES =========== -->
+    <!-- OUR SERVICES -->
     <section class="py-16 sm:py-24 px-4">
         <div class="container mx-auto max-w-4xl text-center">
             <h2 class="text-3xl sm:text-4xl font-extrabold brand-accent mb-10">השירותים שלנו</h2>
@@ -128,12 +129,11 @@
         </div>
     </section>
 
-    <!-- =========== CALL TO ACTION / OFFER =========== -->
+    <!-- CALL TO ACTION -->
     <section id="cta" class="py-16 sm:py-24 px-4" style="background-color: #111;">
         <div class="container mx-auto max-w-4xl text-center">
             <h2 class="text-3xl sm:text-4xl font-extrabold brand-accent mb-6">❤️ כך תוכלו להיות חלק מהאור</h2>
             <p class="text-lg text-gray-300 mb-10">התמיכה שלכם היא הדלק שמניע את ניידות האור שלנו. כל תרומה, כל שגריר וכל מתנדב חדש – הם עוד צעד בדרך לריפוי הלב הישראלי.</p>
-            
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div class="bg-gray-500/10 p-8 rounded-xl border border-amber-500/30 flex flex-col items-center">
                     <h3 class="text-2xl font-bold text-white mb-2">🎁 תרמו</h3>
@@ -154,7 +154,7 @@
         </div>
     </section>
 
-    <!-- =========== VISION / FINAL PUSH =========== -->
+    <!-- VISION -->
     <section class="py-16 sm:py-24 px-4">
         <div class="container mx-auto max-w-3xl text-center">
             <h2 class="text-3xl sm:text-4xl font-black text-white mb-4">לאן אנחנו צועדים</h2>
@@ -169,7 +169,7 @@
         </div>
     </section>
 
-    <!-- =========== FOOTER =========== -->
+    <!-- FOOTER -->
     <footer class="py-12 px-4 text-center text-gray-500">
         <p class="mb-4">🕊️ לזכר אבידן תורג’מן ז”ל ולמען כל מי שזקוק לאור על הרחבה</p>
         <p>עמותת מגדל אור | ע”ר 580787042</p>
@@ -191,20 +191,14 @@
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             const shareBtn = document.getElementById('whatsapp-share-btn');
-            
-            // !!! חשוב מאוד !!!
-            // החליפו את הכתובת הזאת בכתובת האמיתית של עמוד הנחיתה שלכם
-            const pageUrl = 'https://kaniel149.github.io/MIGDAL-OR/'; 
-            
+            // כתובת עמוד הנחיתה שלך:
+            const pageUrl = window.location.href; 
             const shareText = `בואו להפיץ את האור! הצטרפו לקמפיין '100 מסיבות נצח' של עמותת מגדל אור ועזרו לנו לרפא את הלב של החברה הישראלית. כל הפרטים כאן: ${pageUrl}`;
-            
             const whatsappUrl = `https://api.whatsapp.com/send?text=${encodeURIComponent(shareText)}`;
-            
             shareBtn.href = whatsappUrl;
             shareBtn.target = '_blank';
             shareBtn.rel = 'noopener noreferrer';
         });
     </script>
-
 </body>
 </html>
